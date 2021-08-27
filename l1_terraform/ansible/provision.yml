@@ -1,0 +1,13 @@
+---
+- name: Nginx server
+  hosts: all
+  pre_tasks:
+    - name: Update all packages
+      tags: systemUpdate
+      apt:
+        name: "*"
+        state: latest
+        update_cache: yes
+  become: true
+  roles:
+    - nginx

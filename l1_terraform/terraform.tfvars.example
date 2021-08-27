@@ -1,0 +1,5 @@
+zone      = "ru-central1-a"
+cloud_id  = "" # Your cloud ID
+folder_id = "" # Your folder ID
+image_id = "fd8uic3g6hoea6qc52d7" # Ubuntu
+yc_token = "" # Your yandex token
